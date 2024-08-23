@@ -11,10 +11,11 @@ This project focuses on enhancing Japanese language models by breaking down kanj
 To use the tool, follow these steps:
 
 ```bash
-python GlyphFormer.py [radical|element] 'text to decompose'
+python3 GlyphFormer.py [radical|element] 'text to decompose'
 ```
 
 Replace `[radical|element]` with your desired decomposition method and `'text to decompose'` with the text you want to process.
+
 
 ## Examples
 
@@ -24,6 +25,11 @@ Here are some examples of how the text is decomposed:
 Character-based: 親譲り の 無鉄砲 で 小 供 の 時 から 損 ばかり し て いる 。
 Radical-based: 立 木 見 言 襄 り の 丿 一 灬 金 失 石 包 で 小 亻 共 の 日 寺 か ら 扌 員 ば か り し て い る 。
 Element-based: 立 木 見 亠 目 言 六 衣 八 一 亠 口 襄 三 り の 灬 一 丿 金 大 夫 失 丿 己 包 石 丿 口 勹 で 小 八 共 亻 の 日 寸 土  寺 か ら 員 口 目 貝 扌 ば か り し て い る 。
+```
+
+```bash
+python3 GlyphFormer.py radical 親譲りの無鉄砲で小供の時から損ばかりしている。
+立 木 見 言 襄 り の 丿 一 灬 金 失 石 包 で 小 亻 共 の 日 寺 か ら 扌 員 ば か り し て い る 。
 ```
 
 ## License
