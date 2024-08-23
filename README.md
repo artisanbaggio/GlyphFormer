@@ -28,7 +28,7 @@ Element-based: 立 木 見 亠 目 言 六 衣 八 一 亠 口 襄 三 り の �
 
 ## License
 
-This project is licensed under the terms of the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## References
 
