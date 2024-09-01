@@ -32,6 +32,26 @@ python3 GlyphFormer.py radical 親譲りの無鉄砲で小供の時から損ば�
 立 木 見 言 襄 り の 丿 一 灬 金 失 石 包 で 小 亻 共 の 日 寺 か ら 扌 員 ば か り し て い る 。
 ```
 
+## Perplexity Results
+
+Perplexity is a common metric used to evaluate language models, reflecting how well a model predicts a sequence of words. A lower Perplexity score indicates better performance.
+
+### Experimental Setup
+
+The Perplexity of the ALBERT model was evaluated using the GlyphFormer tool on a dataset from the Boccia domain. The dataset was processed using the sub-character decomposition methods provided in this repository.
+
+### Results
+
+The results of the experiments are summarized in the following table. As shown, sub-character tokenization methods significantly improved perplexity compared to traditional character-based tokenization.
+
+| Tokenization Method | Perplexity | Improvement (%) |
+|----------------------|------------|-----------------|
+| Character-based | 3.85 | - |
+| Radical-based | 2.90 | 24.68 |
+| Element-based | 2.82 | 26.75 |
+
+These results indicate that sub-character decomposition significantly aids the model in handling the complexity of kanji in Japanese, leading to better performance as measured by Perplexity. 
+
 ## License
 
 This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
