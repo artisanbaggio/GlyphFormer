@@ -6,6 +6,25 @@ This repository contains the code for sub-character decomposition in Japanese te
 
 This project focuses on enhancing Japanese language models by breaking down kanji characters into smaller, meaningful sub-components. The tool provided here allows for easy decomposition of kanji characters into radicals and elements.
 
+### Visualization of Character Decomposition
+
+Below are three images illustrating the differences in kanji decomposition:
+
+- Character-based: The kanji character "親" in its normal form.
+  
+  ![normal_親](https://github.com/user-attachments/assets/f04828a9-16fc-4572-a687-de35f4304ce7)
+
+
+- Radical-based: The kanji "親" broken down into its radicals: "立", "木", and "見". Each radical is color-coded.
+  
+  ![radical_親](https://github.com/user-attachments/assets/2ee0fef1-c9a5-4108-87a4-758679e34f79)
+
+
+- Element-based: The kanji "親" further decomposed into its elements: "立", "木", "見", "亠", and "目". This version includes the radicals plus additional finer elements, all of which are color-coded to differentiate the components.
+
+  ![element_親](https://github.com/user-attachments/assets/03ad95e9-00f9-4c70-be49-0a90061efd2d)
+
+
 ## How to Use
 
 To use the tool, follow these steps:
